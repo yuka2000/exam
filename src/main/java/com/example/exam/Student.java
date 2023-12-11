@@ -70,7 +70,7 @@ class Student {
         students.forEach(Student::displayDetails);
 
 
-        String specificCourse = "Computer Science";
+        String specificCourse = "Computer Programming";
         System.out.println("Students enrolled in '" + specificCourse + "':");
         students.stream()
                 .filter(student -> student.getCourses().contains(specificCourse))
